@@ -65,7 +65,7 @@ def disable_days():
         day["calendarDate"]
         for year in get_calendar(room_id = "1103438586972971737")
             for day in year["days"]
-                if day["bookable"] == True
+                if day["bookable"] == False
     ])
 
 @app.post("/")
