@@ -1,7 +1,7 @@
+from pyairbnb import get_calendar
 from datetime import timedelta
 from secrets import token_hex
 from config import lang
-from airbnb import Api
 from flask import (
     Flask,
     jsonify,
@@ -62,10 +62,10 @@ def policy(): return redirect("https://audaxly.com/privacy-policy?code=ln3hbi9fq
 @app.post("/disable_days")
 def disable_days():
     return jsonify([
-        day["date"]
-        for month in Api(randomize = True).get_calendar("1103438586972971737")["calendar_months"]
-        for day in month["days"]
-        if day["available"] == False
+        day["calendarDate"]
+        for year in get_calendar(room_id = "1103438586972971737")
+            for day in year["days"]
+                if day["bookable"] == True
     ])
 
 @app.post("/")
