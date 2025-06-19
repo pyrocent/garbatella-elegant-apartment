@@ -107,7 +107,7 @@ lang = {
             ],
             "phone": "PHONE",
             "select days": "SELECT DAYS",
-            "guests no.": "GUESTS NO. (max. 4)",
+            "guests no.": "GUESTS NO. (max. 5)",
             "submit": "BOOK",
             "date format": "Y/m/d"
         },
@@ -237,7 +237,7 @@ lang = {
             ],
             "phone": "TELEFONO",
             "select days": "SELEZIONA GIORNI",
-            "guests no.": "N° OSPITI (max. 4)",
+            "guests no.": "N° OSPITI (max. 5)",
             "submit": "PRENOTA",
             "date format": "d/m/Y"
         },
