@@ -108,7 +108,7 @@ lang = {
             "phone": "PHONE",
             "select days": "SELECT DAYS",
             "guests no.": "GUESTS NO. (max. 5)",
-            "submit": "BOOK",
+            "submit": "REQUEST INFO",
             "date format": "Y/m/d"
         },
         "tourist-tax-payment": {
@@ -238,7 +238,7 @@ lang = {
             "phone": "TELEFONO",
             "select days": "SELEZIONA GIORNI",
             "guests no.": "N° OSPITI (max. 5)",
-            "submit": "PRENOTA",
+            "submit": "RICHIEDI INFO",
             "date format": "d/m/Y"
         },
         "tourist-tax-payment": {
