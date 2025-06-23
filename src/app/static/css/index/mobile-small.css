@@ -1,0 +1,239 @@
+body {
+    margin: 0 5px 5px 5px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+header {
+    display: flex;
+    height: 250px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 20px 20px;
+    background-repeat: no-repeat;
+    background-image: url("../../../assets/house/cover.jpeg");
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 0 10px;
+    justify-content: space-between;
+}
+
+#tax {
+    margin: 0;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+}
+
+#languages {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0 0 0;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+}
+
+#subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 2.5px 0 2.5px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#center .book {
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 104, 248);
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#sliders {
+    display: flex;
+    flex-direction: column;
+}
+
+#slider-for {
+    width: 100%;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+}
+
+.slick-prev,
+.slick-next {
+    top: 50%;
+    z-index: 1;
+    width: 12.5%;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%, -50%);
+    background-color: rgba(37, 104, 248, 0.65);
+}
+
+.slick-prev {
+    left: 0%;
+}
+
+.slick-next {
+    left: 100%;
+}
+
+#slider-nav {
+    width: 100%;
+}
+
+#slider-nav .slide {
+    padding-right: 5px;
+}
+
+.slide {
+    border-radius: 10px;
+}
+
+#info {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgb(37, 104, 248);
+}
+
+#map {
+    width: 100%;
+    border: none;
+    height: 135px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+#tabs-container {
+    width: 100%;
+}
+
+#tabs-buttons {
+    gap: 5px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.tab-button {
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.tab-button.active {
+    border-radius: 90px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    gap: 10px;
+    display: flex;
+    height: 325px;
+    overflow: auto;
+    padding: 20px 0;
+    flex-direction: column;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.icon-text {
+    gap: 10px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+}
+
+#tabs-container .book {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    padding: 0px 10px;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(37, 104, 248);
+}
+
+#home a,
+#neighborhood a,
+footer div a,
+footer div p {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
+}
+
+#home a,
+#neighborhood a {
+    font-size: 25px;
+}
+
+footer div a {
+    font-size: 9px;
+}
+
+footer div p {
+    font-size: 6px;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

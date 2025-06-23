@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    background-color: rgb(37, 104, 248);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 85, 85);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 15px;
+    justify-content: space-between;
+}
+
+#name {
+    margin: 0;
+    font-size: 15px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.15));
+}
+
+#languages {
+    width: 50px;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+fieldset {
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.35));
+}
+
+legend {
+    font-size: 25px;
+}
